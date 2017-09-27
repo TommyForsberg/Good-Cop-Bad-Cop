@@ -36,7 +36,9 @@ this.goodcopargument = '';
   this.DetermineConfess();
 }
 Conversate(argument: string) {
-
+  this.badcopargument = '';
+  this.goodcopargument = argument;
+  this.DetermineConfess();
 }
 
 

@@ -1,7 +1,7 @@
 <div [ngClass]='this.coptocop.currentGoodCopClass'>
 <div id="goodcop-title"><h1>{{title}}</h1></div>
   <div *ngFor= "let item of methods">
-    <button class="btn btn-success">{{item}}</button>
+    <button (click)='self[item.JsAction]()' class="btn btn-success">{{item.Label}}</button>
   </div>
   <button (click)='TellBadCopToLeave()' class="btn btn-info">"Take a break Bad Cop!"</button>
 </div>
