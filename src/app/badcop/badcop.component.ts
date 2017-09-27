@@ -14,7 +14,7 @@ export class BadcopComponent implements OnInit {
   title: string = 'Bad Cop';
   argument: string = 'Start the interrogation!';
   private temperService: TemperService;
-  private coptocop: CoptocopService;
+  coptocop: CoptocopService;
 
   methods: CopAction[] =
     [
@@ -35,6 +35,7 @@ this.coptocop = _coptocop;
   YellAction() {
   this.temperService.AffectTemper(1);
   this.temperService.VerbalAbuse(this.GetInvocation());
+  this.coptocop.neutralargument = '';
   }
 
   HitAction(){

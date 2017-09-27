@@ -4,7 +4,7 @@
   border-radius: 25px;
   text-align: center;
 }
-#badCop{
+.badCop{
   height: 450px;
   margin: 20px;
   background-image: url("08e666adc4355f2bff4fe807032278ae--judge-dreed-character-portraits.jpg");
@@ -17,6 +17,23 @@
   ),
   url("08e666adc4355f2bff4fe807032278ae--judge-dreed-character-portraits.jpg");
   border-radius: 25px;
+}
+.badCop-leave{
+  height: 450px;
+  margin: 20px;
+  background-image: url("2c3c284ad05a23bc4fc61a9ee71a165e--interview-advice-job-interview-questions.jpg");
+  background-size: 450px;
+  background-image: -webkit-linear-gradient(right,
+  rgba(0,0,0,4) 0%,
+  rgba(0,0,0,0) 20%,
+  rgba(0,0,0,0.7) 80%,
+  rgba(0,0,0,2) 100%
+  ),
+  url("4ce1e1c893bb68f0719f8bbc4014d9b1--set-design-the-room.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  background-position: bottom;
 }
 h1{
   color: #ae100e;

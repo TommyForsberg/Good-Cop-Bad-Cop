@@ -16,7 +16,10 @@ export class GoodcopComponent implements OnInit {
   constructor(private _coptocop: CoptocopService) {
     this.coptocop = _coptocop;
   }
+  TellBadCopToLeave() {
+    this.coptocop.BadCopLeaveRoom();
 
+  }
   ngOnInit() {
   }
 }
