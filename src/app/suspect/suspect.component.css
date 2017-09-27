@@ -1,0 +1,29 @@
+#suspect{
+  height: 450px;
+  background-image: url("9a2f2f6cf0f7db3e87dc4d3a5354f2a3--underground-comics-comic-movies.jpg");
+  background-size: 450px;
+  mix-blend-mode: normal;
+  border-radius: 25px;
+}
+#mood{
+position:absolute;bottom:0px;
+ width: 93%;
+}
+
+#arguments{
+  position:absolute;top:100px;
+  width: 100%;
+  color: white;
+  margin: auto;
+}
+#bad-args{
+   width: 50%;
+  text-align: center;
+  color: red;
+  text-shadow: -1px 0 #5a0b0b, 0 1px black, 1px 0 black, 0 -1px red;
+ }
+#good-args{
+  width: 50%;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

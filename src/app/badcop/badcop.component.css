@@ -1,0 +1,32 @@
+#badcop-title{
+  background: rgb(54, 25, 25);
+  background: rgba(54, 25, 25, .2);
+  border-radius: 25px;
+  text-align: center;
+}
+#badCop{
+  height: 450px;
+  margin: 20px;
+  background-image: url("08e666adc4355f2bff4fe807032278ae--judge-dreed-character-portraits.jpg");
+  background-size: 450px;
+  background-image: -webkit-linear-gradient(right,
+  rgba(0,0,0,4) 0%,
+  rgba(0,0,0,0) 20%,
+  rgba(0,0,0,0.7) 80%,
+  rgba(0,0,0,2) 100%
+  ),
+  url("08e666adc4355f2bff4fe807032278ae--judge-dreed-character-portraits.jpg");
+  border-radius: 25px;
+}
+h1{
+  color: #ae100e;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.btn{
+padding: 30px;
+  margin: 5px;
+}
+
+

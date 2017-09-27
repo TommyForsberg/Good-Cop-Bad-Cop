@@ -1,0 +1,7 @@
+<div id="badCop">
+<div id="badcop-title"><h1>{{title}}</h1></div>
+    <div *ngFor= "let item of methods">
+      <button (click)='self[item.JsAction]()' class="btn btn-danger">{{item.Label}}</button>
+    </div>
+  <button (click)="AbruptGoodCopAction()" class="btn btn-info">Abrupt Good Cop!</button>
+</div>
