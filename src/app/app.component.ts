@@ -1,3 +1,5 @@
+// © Created by: Tommy Forsberg 
+
 import { Component } from '@angular/core';
 
 @Component({
